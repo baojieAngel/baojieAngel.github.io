@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>计算机软件与硬件</title>
+      <link href="/2023/09/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6/"/>
+      <url>/2023/09/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="计算机软件与硬件"><a href="#计算机软件与硬件" class="headerlink" title="计算机软件与硬件"></a>计算机软件与硬件</h3><p>计算机硬件:</p><ol><li>CPU</li></ol><ul><li>中央处理器</li></ul><ol start="2"><li>内存</li></ol><ul><li><img src="/images/%E5%86%85%E5%AD%98.PNG" alt="Alt text"></li></ul><ol start="3"><li>硬盘</li></ol><ul><li>固态硬盘(SSD)</li><li>机械硬盘(HDD)</li><li>混合硬盘(SSHD)</li></ul><ol start="4"><li>存储设备</li></ol><ul><li>磁盘</li><li>光盘</li><li>磁带</li></ul><ol start="5"><li>输入设备</li></ol><ul><li>键盘</li><li>鼠标</li></ul><ol start="6"><li>输出设备</li></ol><ul><li>显示器</li><li>打印机</li></ul><ol start="7"><li>通信设备</li></ol><ul><li>调制解调器</li><li>网卡</li></ul><p>计算机软件:</p><ol><li>系统软件</li><li>应用软件–jdk</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客文章</title>
       <link href="/2022/11/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
       <url>/2022/11/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h3 id="学生管理系统"><a href="#学生管理系统" class="headerlink" title="学生管理系统"></a>学生管理系统</h3><table><thead><tr><th align="left">班级</th><th align="right">姓名</th><th align="center">性别</th><th align="center">成绩</th></tr></thead><tbody><tr><td align="left">1班</td><td align="right">张三</td><td align="center">男</td><td align="center">99</td></tr><tr><td align="left">2班</td><td align="right">李四</td><td align="center">女</td><td align="center">100</td></tr><tr><td align="left">3班</td><td align="right">王二</td><td align="center">男</td><td align="center">98</td></tr></tbody></table><blockquote><p>李四成绩大于张三，所以李四的成绩最好</p></blockquote><p>李四学习计划:</p><ol><li>早起</li><li>自律</li><li>早睡</li></ol><p>张三学习计划：</p><ul><li>早起</li><li>自律</li><li>晚睡</li></ul><p>明天要做的事:</p><ul><li>[x]吃饭</li><li>[x]打豆豆</li><li>[ ]睡觉</li></ul><p>代码块：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">( )</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> x；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">( )</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">               &#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="学生管理系统"><a href="#学生管理系统" class="headerlink" title="学生管理系统"></a>学生管理系统</h3><table><thead><tr><th align="left">班级</th><th align="right">姓名</th><th align="center">性别</th><th align="center">成绩</th></tr></thead><tbody><tr><td align="left">1班</td><td align="right">张三</td><td align="center">男</td><td align="center">99</td></tr><tr><td align="left">2班</td><td align="right">李四</td><td align="center">女</td><td align="center">100</td></tr><tr><td align="left">3班</td><td align="right">王二</td><td align="center">男</td><td align="center">98</td></tr></tbody></table><blockquote><p>李四成绩大于张三，所以李四的成绩最好</p></blockquote><p>李四学习计划:</p><ol><li>早起</li><li>自律</li><li>早睡</li></ol><p>张三学习计划：</p><ul><li>早起</li><li>自律</li><li>晚睡</li></ul><p>明天要做的事:</p><ul><li>[ ]吃饭</li><li>[x]打豆豆</li><li>[ ]睡觉</li></ul><p>代码块：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">( )</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> x；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">( )</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">               &#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
