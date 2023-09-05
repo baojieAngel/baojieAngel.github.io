@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>java语言概述</title>
+      <link href="/2023/09/05/java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/"/>
+      <url>/2023/09/05/java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一个HelloWorld"><a href="#第一个HelloWorld" class="headerlink" title="第一个HelloWorld"></a>第一个HelloWorld</h2><ul><li><img src="/images/%E6%A6%82%E8%BF%B03.PNG" alt="Alt text">   </li><li><img src="/images/%E6%A6%82%E8%BF%B04.PNG" alt="Alt text"></li><li><img src="/images/%E6%A6%82%E8%BF%B01.PNG" alt="Alt text"></li><li><img src="/images/%E6%A6%82%E8%BF%B02.PNG" alt="Alt text"></li></ul><h2 id="单行注释和多行注释"><a href="#单行注释和多行注释" class="headerlink" title="单行注释和多行注释"></a>单行注释和多行注释</h2><ul><li>单行注释 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//注释文字</span><br></pre></td></tr></table></figure> <img src="/images/%E5%8D%95%E8%A1%8C%E6%B3%A8%E9%87%8A.PNG" alt="Alt text"></li><li>多行注释 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line">注释文字1</span><br><span class="line">注释文字2</span><br><span class="line">注释文字3</span><br><span class="line">*/</span><br></pre></td></tr></table></figure> <img src="/images/%E5%A4%9A%E8%A1%8C%E6%B3%A8%E9%87%8A.PNG" alt="Alt text"></li><li>文档注释(注解 Java特有)<br>说明：原有的注释功能里还能加上作者，版本号，电话，邮箱等并且显示出来，一般在代码结尾可以体现，<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line">@author jie</span><br><span class="line">@version 1.0</span><br><span class="line">*/</span><br></pre></td></tr></table></figure><img src="/images/%E6%96%87%E6%A1%A3%E6%B3%A8%E9%87%8A.PNG" alt="Alt text"></li></ul><h1 id="java语言优缺点"><a href="#java语言优缺点" class="headerlink" title="java语言优缺点"></a>java语言优缺点</h1><p>优点</p><ol><li><strong>跨平台性</strong>:这是Java的核心优势,Java在最初设计就注重移植和跨平台性，通过Java语言编写的应用程序在不同的系统平台上都可以运行<br>  <img src="/images/%E4%BC%981.PNG" alt="Alt text"></li><li><strong>面向对象性</strong>:面向对象是一种程序设计技术,非常适合大型软件的设计和开发，面向对象编程支持封装,继承,多态等特性</li><li><strong>健壮性</strong>:吸收了C&#x2F;C++语言的优点,但去掉了影响程序健壮性的部分,提供了一个相对安全的内存管理和访问机制</li><li><strong>安全性高</strong>:Java适合于网络&#x2F;分布式环境，需要提供一个安全机制以防恶意代码的攻击</li><li><strong>简单性</strong>:Java就是c++语法的简化版</li><li><strong>高性能</strong>:Java语言本身发展中通过虚拟机的优化提升看十几倍运行效率</li><li>功能：<strong>自动内存管理(内存分配,内存回收)</strong><ul><li>Java程序在运行过程中,涉及到运算的数据的分配,存储都由JVM来完成。</li><li>java消除了程序员回收无用内存空间的职责,提供了一种系统跟踪存储空间的分配情况,在内存空间到达相应阈值时,检查并释放可以释放的内存</li><li>Gc的自动回收，提高了内存空间的利用效率,也提高了编程人员的效率，减少了没有释放空间而导致的内存泄漏</li></ul></li></ol><p>缺点</p><ul><li>语法过于复杂，成本较高</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JDK的选择和下载与安装</title>
+      <link href="/2023/09/05/JDK/"/>
+      <url>/2023/09/05/JDK/</url>
+      
+        <content type="html"><![CDATA[<p><strong><a href="#JDK%E7%89%88%E6%9C%AC%E9%80%89%E6%8B%A9">jdk版本选择</a></strong><br><strong><a href="#JDK%E7%9A%84%E4%B8%8B%E8%BD%BD">jdk下载</a></strong><br><strong><a href="#jdk%E7%9A%84%E5%AE%89%E8%A3%85">jdk的安装</a></strong><br><strong><a href="#%E9%85%8D%E7%BD%AEPath%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F">配置path环境变量</a></strong></p><h1 id="JDK的选择和下载"><a href="#JDK的选择和下载" class="headerlink" title="JDK的选择和下载"></a>JDK的选择和下载</h1><blockquote><p>jdk:(J ava D evelopment K it):是Java程序开发工具包，包含<strong>JRE</strong>和开发人员使用的工具。</p></blockquote><blockquote><p>JRE(J ava Runtime E nvironment):是Java程序的运行时环境，包含<strong>JVM</strong>和运行时所需要的<strong>核心类库</strong></p></blockquote><p>JDK和JRE和JVM的关系图  </p><ul><li><img src="/images/%E5%85%B3%E7%B3%BB%E5%9B%BE.PNG" alt="Alt text">  </li><li>JDK  &#x3D;  JRE  +  开发工具集  </li><li>JRE  &#x3D;  JVM  +  Java SE标准类库</li></ul><h2 id="JDK版本选择"><a href="#JDK版本选择" class="headerlink" title="JDK版本选择"></a>JDK版本选择</h2><ul><li><img src="/images/jdk%E9%80%89%E6%8B%A9.PNG" alt="Alt text"> </li><li><img src="/images/jdk%E9%80%89%E6%8B%A92.PNG" alt="Alt text"></li><li><img src="/images/jdk%E9%80%89%E6%8B%A93.PNG" alt="Alt text"></li><li><blockquote><p>自Java发布以来，其后的每次更新，都会有小伙伴高呼：你发任你发，我用Java 8</p></blockquote></li></ul><p>数据</p><ul><li><img src="/images/jdk%E9%80%89%E6%8B%A94.PNG" alt="Alt text"></li></ul><h2 id="JDK的下载"><a href="#JDK的下载" class="headerlink" title="JDK的下载"></a>JDK的下载</h2><ul><li>下载网址（Oracle公司官网）:  <a href="www.oracle.com">www.oracle.com</a></li></ul><ol><li>下载步骤，如图所示,在官网底部选择Developers开发者<br><img src="/images/%E6%AD%A5%E9%AA%A41.PNG" alt="Alt text"> </li><li>在Developers页面中间的技术分类部分，选择Java，单击进入，如图所示：<br><img src="/images/%E6%AD%A5%E9%AA%A42.PNG" alt="Alt text"></li><li>在下方找到download oracle jdk 进行下载，如图所示:<br><img src="/images/%E6%AD%A5%E9%AA%A43.PNG" alt="Alt text"></li><li>点击如图所示的按钮，可选择所需要的版本进行下载，（目前推荐下载兼容的jdk8和jdk17）<br><img src="/images/%E6%AD%A5%E9%AA%A44.PNG" alt="Alt text"><br><img src="/images/%E6%AD%A5%E9%AA%A45.PNG" alt="Alt text"></li></ol><h1 id="jdk的安装"><a href="#jdk的安装" class="headerlink" title="jdk的安装"></a>jdk的安装</h1><ol><li><p>双击打开安装包。<br><img src="/images/%E5%AE%89%E8%A3%851.PNG" alt="Alt text"></p></li><li><p>点击下一步选择安装到文件夹中（路径最好不要有中文符号和汉字）<br><img src="/images/%E5%AE%89%E8%A3%852.PNG" alt="Alt text"></p></li><li><p>安装时如果出现安装JRE，可以选择不安装，因为jdk自带jre<br><img src="/images/%E5%AE%89%E8%A3%853.PNG" alt="Alt text"><br><img src="/images/%E5%AE%89%E8%A3%854.PNG" alt="Alt text"></p></li></ol><h1 id="配置Path环境变量"><a href="#配置Path环境变量" class="headerlink" title="配置Path环境变量"></a>配置Path环境变量</h1><ol><li><p>我的电脑右击属性<br><img src="/images/Path1.PNG" alt="Alt text"></p></li><li><p><img src="/images/Path2.PNG" alt="Alt text"></p></li><li><p><img src="/images/Path3.PNG" alt="Alt text"></p></li><li><p>在系统变量中新建一个变量名为JAVA_HOME，变量值为jdk安装的路径，如图所示<br><img src="/images/Path4.PNG" alt="Alt text"><br><img src="/images/Path5.PNG" alt="Alt text"></p></li><li><p>在找到图中的path变量双击打开或者编辑<br><img src="/images/Path6.PNG" alt="Alt text"></p></li><li><p>在新建一个，内容输入%JAVA_HOME%\bin<br><img src="/images/Path7.PNG" alt="Alt text"></p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>编程语言来源</title>
+      <link href="/2023/09/05/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2023/09/05/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机编程语言"><a href="#计算机编程语言" class="headerlink" title="计算机编程语言"></a>计算机编程语言</h1><p><strong>计算机语言是什么</strong></p><ul><li>语言：人与人之间共同的一种方式</li><li>计算机编程语言：就是人与计算机交流的方式，人们可以使用 <strong>编程语言</strong> 对计算机下达<strong>命令</strong>，让计算机完成人们需要的功能</li><li>计算机种类： <code>C C++ Java Go JavaScript Python Scala等</code></li></ul><hr><h1 id="计算机语言简史"><a href="#计算机语言简史" class="headerlink" title="计算机语言简史"></a>计算机语言简史</h1><ul><li><p>第一代：机器语言（相当于人类的石器时代）</p><ul><li><p>1946年2月14日，世界上第一台计算机ENAC诞生，使用的是最原始的穿孔卡片，这种卡片上使用的是用二进制代码表示的语言，与人类语言差别极大，这种语言称为机器语言。</p></li><li><p><img src="/images/%E6%9C%BA%E5%99%A8%E8%AF%AD%E8%A8%80.PNG" alt="Alt text"></p></li></ul></li><li><p>第二代：汇编语言（相当于人类的青铜&amp;铁器时代）</p><ul><li><p>使用英文缩写的<strong>助记符</strong>来表示基本的操作，这些助记符构成了汇编语言的基础，比如：Load，Move等，因此，汇编语言也称为符号语言。</p></li><li><p>优点：能编写<strong>高效率</strong>的程序</p></li><li><p>缺点：汇编语言是面向机器的，不同计算机机型特点不同，因此会有不同的汇编语言，彼此之前<strong>不能通用</strong>，程序不易移植，较难调试</p></li></ul></li><li><p>第三代：高级语言（相当于人类的信息时代）</p><ul><li><p>高级语言发展于20世纪50年代中叶到70年代，是一种<strong>接近于人们使用习惯</strong>的程序设计语言，它允许程序员使用<strong>接近日常英语</strong>的指令来编写程序，程序中的符号和算式也与<strong>日常用的数学式子</strong>差不多，接近于自然语言和数学语言，容易为人们掌握。<br>  <img src="/images/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80.PNG" alt="Alt text"></p></li><li><p>高级语言<strong>独立于机器</strong>，有一定的通用性，计算机不能直接识别和执行用高级语言编写的程序，需要使用编译器或者解释器，转换为<strong>机器语言</strong>才能被识别和执行<br>  <img src="/images/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%802.PNG" alt="Alt text"><br>  <img src="/images/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%803.PNG" alt="Alt text"></p></li></ul></li><li><p>此外，高级语言按照程序设计方法的不同，可分为：<strong>面向过程的语言</strong>和<strong>面向对象的语言</strong></p><ul><li>C，Pascal,Fortran面向过程的语言</li><li>C++面向过程&#x2F;面向对象</li><li>Java跨平台的纯面向对象的语言</li><li>C#,Python,JavaScript</li></ul></li></ul><blockquote><p>目前,计算机语言仍然处于第三代高级语言阶段,但是不管是什么语言,最后都要向机器语言靠近，因为CPU只认识0和1</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件</title>
+      <link href="/2023/09/05/%E8%BD%AF%E4%BB%B6/"/>
+      <url>/2023/09/05/%E8%BD%AF%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>什么是软件</p><blockquote><p>软件,即一系列按照特定顺序组织的计算机数据和指令的集合，有系统软件和应用软件之分</p></blockquote><p>系统软件</p><ul><li><img src="/images/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6.PNG" alt="Alt text"></li></ul><p>应用软件</p><ul><li><img src="/images/%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6.PNG" alt="Alt text"></li></ul><p>人机交互方式</p><ol><li>图形化界面（GUI）</li><li>命令行方式（CLI）</li></ol><p>常见DOS命令</p><ol><li><img src="/images/DOS.PNG" alt="Alt text"></li><li><img src="/images/DOS2.PNG" alt="Alt text"></li><li><img src="/images/DOS3.PNG" alt="Alt text"></li><li><img src="/images/DOS4.PNG" alt="Alt text"></li><li><img src="/images/DOS5.PNG" alt="Alt text"></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机软件与硬件</title>
       <link href="/2023/09/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6/"/>
       <url>/2023/09/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6/</url>
