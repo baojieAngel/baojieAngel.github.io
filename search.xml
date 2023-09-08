@@ -82,6 +82,19 @@
     
     
     <entry>
+      <title>Scanner类的输入</title>
+      <link href="/2023/09/05/Scanner%E6%93%8D%E4%BD%9C/"/>
+      <url>/2023/09/05/Scanner%E6%93%8D%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Scanner类"><a href="#Scanner类" class="headerlink" title="Scanner类"></a>Scanner类</h1><ol><li>步骤一:导包</li></ol><ul><li>import java.util.Scanner;</li></ul><ol start="2"><li>提供或者创建一个Scanner类的实例</li></ol><ul><li>&#96;&#96;&#96;java<br>Scanner scanner &#x3D; new Scanner(System.in);<br>(变量类型 变量名 &#x3D; 变量值)</li></ul><ol start="3"><li>调用Scanner类中的方法,获取指定类型的变量</li></ol><ul><li>字符型:String hanson&#x3D;scanner.next();  </li><li>数值型:double height &#x3D; scanner.nextDouble();</li><li>布尔型:boolean hanson &#x3D; scanner.nextBoolean();</li><li>整型:int pretty&#x3D;scanner.nextInt();</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JDK的选择和下载与安装</title>
       <link href="/2023/09/05/JDK/"/>
       <url>/2023/09/05/JDK/</url>
